@@ -5,7 +5,6 @@ This extension eliminates the need to manually type capacity numbers and click t
 
 ## Screenshots
 ![Extension Interface](demo.png)
-*Place a screenshot of the extension in the folder and name it screenshot.png to see it here.*
 
 ## Setup & Installation
 1.  **Download** or move all extension files into a single folder.
@@ -20,7 +19,7 @@ This extension eliminates the need to manually type capacity numbers and click t
 3.  Select the **Providers**:
     *   Click this **extension** icon in your browser toolbar.
     *   Enter the desired **Capacity** (e.g., `1`).
-    *   Check the **Enable Toggles** box if you want toggle maximize option.
+    *   **Toggles the Maximize** toggle if you want toggle maximize option in nash aswell.
     *   Click **Apply Changes**.
 4.  The extension will instantly fill all "Capacity" fields and flip all toggles on the page for you.
 
