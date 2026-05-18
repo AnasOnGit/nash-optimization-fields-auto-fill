@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="header">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 3-1.912 5.813a2 2 0 0 1-1.275 1.275L3 12l5.813 1.912a2 2 0 0 1 1.275 1.275L12 21l1.912-5.813a2 2 0 0 1 1.275-1.275L21 12l-5.813-1.912a2 2 0 0 1-1.275-1.275L12 3Z"/></svg>
+    <h1>Nash Automator</h1>
+  </div>
+
+  <div class="container">
+    <div class="input-group">
+      <label for="capValue">Default Capacity</label>
+      <input type="number" id="capValue" value="1" placeholder="0">
+    </div>
+
+    <div class="switch-row">
+      <div class="label-stack" labelFor="toggleState>
+        <span class="main-label">Maximize</span>
+        <span class="sub-label">Toggle "maximize"</span>
+      </div>
+      <label class="switch">
+        <input type="checkbox" id="toggleState">
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <button id="applyBtn">
+      <span>Apply Changes</span>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+    </button>
+    
+    <div id="status"></div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
